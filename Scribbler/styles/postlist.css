@@ -1,0 +1,78 @@
+body{
+    background-color: #ffeedd;
+}
+.card-body{
+    background-color:#e8e8e8;
+    
+}
+.card{
+    margin:2vw 5vw 2vw 5vw;
+
+}
+.dimension{
+    height: 19vh;
+}
+.card:hover{
+    box-shadow: 0 32px 64px 0 rgba(0, 0, 0, 0.2);
+}
+.posts{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+.delete{
+    float:right;
+    color: #818181;
+    font-size: 15px;
+    cursor: pointer;
+}
+.username{
+    font-weight: bold;
+    color: #707070;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+}
+.description{
+    height: 55px;
+    overflow: hidden;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+}
+.heading{
+    font-family: 'Abel', sans-serif;
+    color: #818181;
+    font-size: 19px;
+}
+.dash{
+    float: right;
+    cursor: pointer;
+}
+.yes-btn{
+    background-color: green;
+    border-color: green;
+    float: left;
+    color: white;
+    width:75px ;
+}
+.no-btn{
+    background-color: red;
+    color: white;
+    float: right;
+    border-color: red;
+    width:75px ;
+}
+.delete-post{
+    font-size: 18px;
+}
+.modal1{
+    width: 28vw;
+}
+a{
+    text-decoration: none;
+}
+#subhead{
+    color: purple;
+}

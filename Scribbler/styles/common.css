@@ -1,0 +1,59 @@
+.signup{
+    background-color: blue;
+    color: white;
+}
+#signup{
+    margin-left: 80%;
+}
+#signin{
+    margin: 10px 10px 0px 0px;
+}
+
+.logo{
+    font-family: 'Montez', cursive; 
+    color: blue;
+    font-size: 2rem;
+    margin-left: 10px;
+}
+#subheading{
+    margin-top: 0;
+    font-family: 'Ubuntu Mono', monospace;
+    margin-left: 10px;
+}
+input{
+    width: 26vw;
+    background-color:#f4f4f4;
+}
+.modal1{
+    width: 28vw;
+}
+.sign-up{
+    width: 26vw;
+    margin-top: 5px;
+    background-color: rgba(0, 128, 0, 0.825);
+    color:white;
+}
+.input{
+    margin:8px 0 16px 0;
+    height:35px;
+    
+}
+#footer{
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 100px;
+}
+#sign{
+    color:blue;
+    margin: 10px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 100px;
+    cursor: pointer;
+}
+:placeholder-shown{
+    padding-left: 10px;
+    font-size: 15px;
+}
+

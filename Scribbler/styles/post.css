@@ -1,0 +1,76 @@
+.container{
+    padding: 30px 60px;
+}
+#Title{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.name{
+    font-family: 'Ubuntu Mono', cursive;
+    font-size: 22px;
+}
+#editPostButton {
+    width: 80px;
+    padding: 10px;
+    cursor: pointer;
+    background: #ed2553;
+    color: #fff;
+    float: right;
+    box-shadow: 0 10px 20px -8px rgb(240, 75, 113);
+    outline: none;
+    border: none;
+}
+.like-post {
+    margin-top: 20px;
+}
+
+#likePostBtn {
+    width: 80px;
+    display: block;
+    background: #ed2553;
+    color: #ffffff;
+    box-shadow: 0 10px 20px -8px rgb(240, 75, 113);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.3s ease;
+    -webkit-transition: 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.like-post #likePostBtn:hover {
+    transform: translateY(-3px);
+}
+.comment-form {
+    width: 100%;
+    margin: 25px 0;
+}
+
+#commentText {
+    width: 70%;
+}
+
+.add-comment-btn {
+    width: 100px;
+    background-color: #ed2553;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+    box-shadow: 0 10px 20px -8px rgb(240, 75, 113);
+    outline: none;
+    border: none;
+    margin-top: 10px;
+}
+.modal1{
+    width: 28vw;
+}
+a{
+    text-decoration: none;
+}
+#subhead{
+    color: black;
+}
